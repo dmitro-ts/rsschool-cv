@@ -10,7 +10,7 @@
 **Telegram:** https://t.me/dmitry_tseluyko
 
 ## About me
-I worked as a gravure printer. I liked my profession, but with the outbreak of war in my country, I lost my job. Front End began to study 3 months ago. I like the layout process itself, it's just unlimited career growth. I am sure that everything will work out for me and I will find a job for the position of Junior Front End Developer
+I worked as a gravure printer. I liked my profession, but with the outbreak of war in my country, I lost my job. Front End began to study 3 months ago. I like the layout process itself, it's just unlimited career growth. I am sure that everything will work out for me and I will find a job for the position of Junior Front End Developer.
 
 ## My Skills
 * HTML5
