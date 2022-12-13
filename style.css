@@ -1,3 +1,269 @@
 body {
-    background: #000000;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background: url(../img/background_body.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    height: max-content;
+}
+
+.h2title {
+    font-size: 3rem;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(237, 165, 31);
+    width: max-content;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+/* header start */
+.header {
+    margin-bottom: 50px;
+}
+
+.header__nav {
+    align-items: center;
+}
+
+.header__nav-items {
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 5px;
+    transition: .3s;
+}
+
+.header__nav-link:hover {
+    opacity: 70%;
+}
+
+.header__items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+
+.header__img {
+    margin-top: 20px;
+    width: 260px;
+    border-radius: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.header__item {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.info__item {
+    font-size: 2rem;
+    font-weight: 400;
+}
+/* header end */
+
+/* main start */
+
+.infome {
+    margin-bottom: 50px;
+}
+
+.bio {
+    border-radius: 20px;
+    background-color: rgba(7, 7, 164, 0.536);
+}
+
+.mybio {
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+    font-size: 2rem;
+    line-height: 30px;
+}
+
+.contacts {
+    margin-bottom: 50px;
+}
+
+.contact {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.location__icon {
+    background-image: url(../img/location.png);
+    background-repeat: no-repeat;
+    background-position: center left 5px;
+}
+
+.mail__icon {
+    background-image: url(../img/mail.png);
+    background-repeat: no-repeat;
+    background-position: center left 5px;
+}
+
+.telegram__icon {
+    background-image: url(../img/telegramm.png);
+    background-repeat: no-repeat;
+    background-position: center left 5px;
+}
+
+.contact__item {
+    padding: 10px;
+    width: max-content;
+    border-radius: 20px;
+    background-color: rgba(7, 7, 164, 0.536);
+    padding-left: 5px;
+    font-size: 2rem;
+}
+
+.contact__items a {
+    padding-left: 45px;
+}
+
+.contact__items p {
+    padding-left: 45px;
+}
+
+.skills {
+    margin-bottom: 50px;
+}
+
+.myskill {
+    display: flex;
+    justify-content: space-between;
+}
+
+.myskill__item {
+    width: max-content;
+    border-radius: 20px;
+    background-color: rgba(7, 7, 164, 0.536);
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.myskill__item a {
+    padding-left: 30px;
+}
+
+.html__icon {
+    background-image: url(../img/html.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.css__icon {
+    background-image: url(../img/css.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.js__icon {
+    background-image: url(../img/js.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.vs__icon {
+    background-image: url(../img/vscode.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.code {
+    margin-bottom: 50px;
+}
+
+.mycode pre {
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgba(7, 7, 164, 0.536);
+    font-size: 2rem;
+    width: max-content;
+}
+
+.education {
+    margin-bottom: 50px;
+}
+
+.education__items {
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.education__item {
+    margin-top: 10px;
+    padding: 10px;
+    width: max-content;
+}
+
+.languages {
+    margin-bottom: 50px;
+}
+
+.languages__items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.languages__item {
+    margin-top: 10px;
+    padding: 10px;
+    width: max-content;
+}
+/* main end */
+
+/* footer start */
+
+.footer__items {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.footer__item-link {
+    background-image: url(../img/github.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.footer__item-link a {
+    padding-left: 30px;
+}
+
+.footer__item-logo {
+    width: 100px;
+}
+
+/* footer end */
